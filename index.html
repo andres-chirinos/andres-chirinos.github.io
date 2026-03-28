@@ -95,9 +95,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">sobre/index.qmd</span>
-    </span>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Sobre mí</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://cuaderno.andreschirinos.com/"> 
@@ -259,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/andres-chirinos\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
