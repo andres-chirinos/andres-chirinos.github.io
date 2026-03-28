@@ -1,1 +1,1 @@
-Sitemap: https://andres-chirinos.github.io/sitemap.xml
+Sitemap: https://www.andreschirinos.com/sitemap.xml
